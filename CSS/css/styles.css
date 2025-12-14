@@ -81,3 +81,11 @@
     padding: 10px 20px;
 
 }
+
+/* Padding com width*/
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
