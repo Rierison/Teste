@@ -89,3 +89,64 @@
     width: 400px;
     padding: 50px;
 }
+
+/* Border */
+.border {
+    border: 5px/* largura da borda*/ solid/*aparência da borda*/   red/*cor da borda*/ ;
+    padding: 10px;
+
+}
+
+
+.border-2 {
+    border: 2px/* largura da borda*/ dotted/*aparência da borda*/   #931/*cor da borda*/ ;
+    padding: 25px;
+    
+}
+
+/* Border individual */
+
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Border Arredondada */
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* Margin */ 
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: #666;
+    margin: 10px 20px 30px 40px;
+}   
